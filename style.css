@@ -1,0 +1,117 @@
+body{
+    background-image: url("gaming\ wall.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin: 0%;
+    padding: 10%;
+}
+
+h2 {
+    color:rgb(250, 250, 250);
+}
+
+p,h2{
+    text-align: center;
+}
+
+.p1{
+    color:cyan;
+    position: absolute;
+    left: 1%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+   
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about{
+    color: red;
+    position: absolute;
+    top: 0%;
+    left: 95%;
+}
+
+.about :link{
+    color: cyan;
+}
+
+.about :visited{
+    color: red;
+}
+
+.grid :link{
+    color: cyan;
+}
+
+.grid :visited{
+    color: red;
+}
+
+.item{
+    position:relative
+}
+
+.item p{
+    position:absolute
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+    opacity:0
+}
+
+.item:p{
+    opacity:1
+   
+}
+
+.item :hover img{
+    opacity:0.33
+}
+
+.Arora{
+    position:relative
+}
+
+.Arora p{
+    position:absolute
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+    opacity:0
+}
+
+.Arora:p{
+    opacity:1
+   
+}
+
+.Arora :hover img{
+    opacity:0.33
+}
+
+
